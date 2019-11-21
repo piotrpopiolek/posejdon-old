@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>404</title>
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <!-- FONTS -->
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <!-- BOOTSTRAP -->      
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- CUSTOM CSS  -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/media.css" />
+      <!-- SVG MASK -->
+      <style>
+         svg #base_404 {
+         fill: rgba(255, 255, 255, 0.85);
+         -webkit-mask: url(#mask);
+         mask: url(#mask);
+         }
+      </style>
+   </head>
+   <body> 
+      <div class="ergo_404_container" >
+         <!-- SLIDER IMAGES -->
+         <figure class="ergo_slider-pic1 error-page"></figure>
+         <figure class="ergo_slider-pic2 error-page"></figure>
+         <figure class="ergo_slider-pic3 error-page"></figure>
+         <!-- END SLIDER IMAGES -->
+         <div class="bg_pattern"></div>
+         <div id="ergo_svg_404_container">
+            <div class="ergo_404-info"  >
+               <div class="ergo_404_svg_text">
+                  <!-- SVG -->
+                  <svg id="svg_404">
+                     <defs>
+                        <mask id="mask" x="0" y="0" width="100%" height="100%" >
+                           <!-- ALPHA RECTANGLE  -->
+                           <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
+                           <svg  >
+                              <!--ALL TEXT YOU WANT -->
+                              <text id="title_404" x="50%" y="35%"  dy=".6em" >Page Not Found</text>
+                              <text id="subtitle_404" x="50%" y="75%"  >Error 404 </text>
+                              <text id="desc_404" x="50%" y="80%"   >
+                              </text>
+                              <text id="desc2_404" x="50%" y="82%"   >
+                                 The page you are looking for was moved or never existed 
+                              </text>
+                           </svg>
+                        </mask>
+                     </defs>
+                     <rect id="base_404" x="0" y="0" width="100%" height="100%"/>
+                  </svg>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

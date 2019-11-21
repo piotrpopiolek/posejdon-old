@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>ergo7</title>
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+      <!-- FONTS -->
+      <!-- FONTS -->
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <!-- BOOTSTRAP -->      
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- CUSTOM CSS  -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/media.css" />
+      <!-- SVG MASK -->
+      <style>
+         svg #base_404 {
+         fill: rgba(255, 255, 255, 0.85);
+         -webkit-mask: url(#mask);
+         mask: url(#mask);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="coming-soon-container" >
+         <!-- SLIDER IMAGES -->
+         <figure class="ergo_slider-pic1 coming-soon"></figure>
+         <figure class="ergo_slider-pic2 coming-soon"></figure>
+         <figure class="ergo_slider-pic3 coming-soon"></figure>
+         <!-- END SLIDER IMAGES -->
+         <div class="coming_soon_bg_pattern"></div>
+         <div id="coming-soon-svg-container">
+            <div class="coming-soon-info"  >
+               <div class="coming-soon-svg-text">
+                  <!-- SVG -->
+                  <svg id="svg-coming-soon">
+                     <defs>
+                        <mask id="mask" x="0" y="0" width="100%" height="100%" >
+                           <!-- ALPHA RECTANGLE  -->
+                           <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
+                           <svg  >
+                              <!--ALL TEXT YOU WANT -->
+                              <text id="coming-soon-title" x="50%" y="15%"  dy=".6em" >WE'RE COMING SOON!</text>
+                              <text id="coming-soon-subtitle" x="50%" y="75%"  >stay tuned </text>
+                              <text id="coming-soon-desc" x="50%" y="81%"   >
+                                 We are busy working on something awesome. 
+                              </text>
+                           </svg>
+                        </mask>
+                     </defs>
+                     <rect id="base_404" x="0" y="0" width="100%" height="100%"/>
+                  </svg>
+               </div>
+               <div class="col-md-12 coming-soon-contact vertical-center" >
+                  <div class="coming-soon-form"   >
+                     <!--START CONTACT FORM INPUTS-->
+                     <form action="#" id="mail_form" method="post" >
+					 <div class="input-group"   >
+                        <input  type="text"  class="form-control"  placeholder="Your Email" name="contact[email]" >
+ 
+                           <span class="submit input-group-btn"> <input type="submit" value="Notify Me"></span>
+ 
+						</div>
+                     </form>
+                     <!--END CONTACT FORM INPUTS-->
+                  </div>
+               </div>
+               <div class="coming-soon-social-wrapper">
+                  <ul>
+                     <li class="coming-soon-social"  > <a href="https://www.facebook.com" target="_blank"> <i class="fa fa-facebook"></i></a> </li>
+                     <li class="coming-soon-social"  ><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>  </li>
+                     <li class="coming-soon-social" ><a href="https://www.tumblr.com/" target="_blank"> <i class="fa fa-tumblr"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
