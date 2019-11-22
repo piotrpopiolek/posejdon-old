@@ -1,98 +1,102 @@
 <!doctype html>
 <html lang="pl">
 
-	<head>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-		<title>Poseidon</title>
-		<!-- FONTS -->
-		<link
-		href='https://fonts.googleapis.com/css?family=Great+Vibes|Raleway|Titillium+Web:400,600,700,900,300,200' rel='stylesheet' type='text/css'>
-		<!-- BOOTSTRAP -->
-		<link
-		href="css/bootstrap.css" rel="stylesheet">
-		<!-- FULLPAGE SCROLL  -->
-		<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"/>
-		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-		<link
-		rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
-		<!-- CUSTOM CSS  -->
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<link
-		rel="stylesheet" type="text/css" href="css/media.css"/>
-		<!-- GALLERY -->
-		<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet"/>
-	</head>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<title>Poseidon</title>
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes|Raleway|Titillium+Web:400,600,700,900,300,200'
+		rel='stylesheet' type='text/css'>
+	<!-- BOOTSTRAP -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- FULLPAGE SCROLL  -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+	<!-- CUSTOM CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css" />
+	<link rel="stylesheet" type="text/css" href="css/carousel.css" />
+	<!-- GALLERY -->
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen"
+		title="prettyPhoto main stylesheet" />
+</head>
 
-	<body>
-		<!--START LOADER -->
-		<div id="loader-wrapper">
-			<div id="loader"></div>
-			<div class="loader-section section-left"></div>
-			<div class="loader-section section-right"></div>
+<body>
+	<!--START LOADER -->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<!--   END LOADER  -->
+	<!-- START MENU -->
+	<nav id="bt-menu" class="bt-menu">
+		<a href="#" class="bt-menu-trigger"><img src="images/gryf.png" alt="Burger Menu"></a>
+		<ul class="menu-options">
+			<li>
+				<a data-index="1" href="#1">Home</a>
+			</li>
+			<li>
+				<a data-index="2" href="#2">O mnie</a>
+			</li>
+			<li>
+				<a data-index="3" href="#3">Artist Lineup</a>
+			</li>
+			<li>
+				<a data-index="4" href="#4">Sponsors</a>
+			</li>
+			<li>
+				<a data-index="5" href="#5">Gallery</a>
+			</li>
+			<li>
+				<a data-index="6" href="#6">Ask Us</a>
+			</li>
+			<li>
+				<a data-index="7" href="#7">Connect us</a>
+			</li>
+		</ul>
+		<ul>
+			<!-- MENU SOCIAL LINKS -->
+			<li>
+				<a href="https://www.instagram.com/" class="bt-icon">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/" class="bt-icon">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+				</a>
+			</li>
+		</ul>
+		<div class="navbar-header">
+			<img class="home_logo" src="images/logo.png"></img>
 		</div>
-		<!--   END LOADER  -->
-		<!-- START MENU -->
-		<nav id="bt-menu" class="bt-menu">
-			<a href="#" class="bt-menu-trigger"><img src="images/gryf.png" alt="Burger Menu"></a>
-			<ul class="menu-options">
-				<li>
-					<a data-index="1" href="#1">Home</a>
-				</li>
-				<li>
-					<a data-index="2" href="#2">O mnie</a>
-				</li>
-				<li>
-					<a data-index="3" href="#3">Artist Lineup</a>
-				</li>
-				<li>
-					<a data-index="4" href="#4">Sponsors</a>
-				</li>
-				<li>
-					<a data-index="5" href="#5">Gallery</a>
-				</li>
-				<li>
-					<a data-index="6" href="#6">Ask Us</a>
-				</li>
-				<li>
-					<a data-index="7" href="#7">Connect us</a>
-				</li>
-			</ul>
-			<ul>
-				<!-- MENU SOCIAL LINKS -->
-				<li>
-					<a href="https://www.instagram.com/" class="bt-icon">
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.facebook.com/" class="bt-icon">
-						<i class="fa fa-facebook-official" aria-hidden="true"></i>
-					</a>
-				</li>
-			</ul>
-			<div class="navbar-header">
-				<img class="home_logo" src="images/logo.png"></img>
-		</div>
-	</body>
-</html></nav><!-- END MENU  --><!--LOGO --><!-- START CONTENT -->
-<div class="main" id="fullpage"> <section class="l-screen home-section">
-	<div class="water">
-		<div class="section-content">
-			<div class="container-fluid section-wrap">
-				<div class="bg_pattern"></div>
-				<div class="row vertical-center">
+</body>
 
-					<p class="title_content">Nowy wymiar dźwięku</p>
-					<!-- END WRAP-CONTAINER -->
+</html>
+</nav><!-- END MENU  -->
+<!--LOGO -->
+<!-- START CONTENT -->
+<div class="main" id="fullpage">
+	<section class="l-screen home-section">
+		<div class="water">
+			<div class="section-content">
+				<div class="container-fluid section-wrap">
+					<div class="bg_pattern"></div>
+					<div class="row vertical-center">
 
+						<p class="title_content">Nowy wymiar dźwięku</p>
+						<!-- END WRAP-CONTAINER -->
+
+					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<section class="l-screen temp-section" id="askus">
@@ -101,27 +105,32 @@
 			<div class="wraper vertical-center">
 				<div class="divider"></div>
 				<div class="column-left">
-					<img src="images/piotr.jpg" alt="Właściciel firmy Poseidon Sound">
+					<img name="slide" width="100%">
 				</div>
 				<div class="column-right">
 					<h2>Kim jestem?</h2>
 					<p>Nazywam się Piotr Woźniak i jestem właściocielem firmy Poseidon Sound.
-						                                                                                                                                                                                                                                                                                                                                                                                              Od najmłodszych lat interesowałem się elektroniką oraz akustyką.
-						                                                                                                                                                                                                                                                                                                                                                                                              Od dziecka bawiłem się w systemy audio.
+						Od najmłodszych lat interesowałem się elektroniką oraz akustyką.
+						Od dziecka bawiłem się w systemy audio.
 					</p>
 
 					<h2>Dlaczego został stworzony Projekt Poseidon?</h2>
 					<p>
-						Wielu wielbicieli muzyki uważa, że subwoofery od dawna uchodzą za przekleństwo perfekcjonistycznych
-						                                                                                                                                                                                                                                                                                                                                                                                              systemów audio. Oczywiście, zapewniają one jedno: głębsze dźwięki basowe. Obszar bardzo niskich tonów
-						                                                                                                                                                                                                                                                                                                                                                                                              to bogactwo wskazówek muzycznych otaczających każdą nutę.
+						Wielu wielbicieli muzyki uważa, że subwoofery od dawna uchodzą za przekleństwo
+						perfekcjonistycznych
+						systemów audio. Oczywiście, zapewniają one jedno: głębsze dźwięki basowe. Obszar bardzo niskich
+						tonów
+						to bogactwo wskazówek muzycznych otaczających każdą nutę.
 					</p>
 					<h2>O konstrukcji</h2>
 					<p>Subwofery poseidon są zdolne do czystej, pozbawionej zniekształceń odpowiedzi niskotonowej,
-						                                                                                                                                                                                                                                                                                                                                                                            dlatego muszą być wystarczająco duże, by przemieścić ilości powietrza, jakich wymagają częstotliwości wewnętrzne. Litraż w tym modelu XCOM1400 to 240l itrów natomiast w modelu XPRO2800  to aż 480 litrów.
-						                                                                                                                                                                                                                                                                                                                                                                            Pionierska konstrukcja całkowicie redukuje drgania głośników, dzięki czemu, może on zastąpić stół lub ławę kawową. Użytkowy mebel.
-						                                                                                                                                                                                                                                                                                                                                                                            Subwoofer tworzy efekt subsoniczny porównywalny do dobrze nagłośnionego koncertu.
-						                                                                                                                                                                                                                                                                                                                                                                            Powstaje fizyczne odczucie basu, dzięki któremu możemy odkrywać muzykę na nowo.</p>
+						dlatego muszą być wystarczająco duże, by przemieścić ilości powietrza, jakich wymagają
+						częstotliwości wewnętrzne. Litraż w tym modelu XCOM1400 to 240l itrów natomiast w modelu
+						XPRO2800 to aż 480 litrów.
+						Pionierska konstrukcja całkowicie redukuje drgania głośników, dzięki czemu, może on zastąpić
+						stół lub ławę kawową. Użytkowy mebel.
+						Subwoofer tworzy efekt subsoniczny porównywalny do dobrze nagłośnionego koncertu.
+						Powstaje fizyczne odczucie basu, dzięki któremu możemy odkrywać muzykę na nowo.</p>
 				</div>
 				<div class="divider"></div>
 			</div>
@@ -140,8 +149,7 @@
 				</header>
 				<div class="contact-content">
 					<div class="container">
-						<div
-							class="col-md-12 contact-right">
+						<div class="col-md-12 contact-right">
 							<!--START CONTACT DETAILS -->
 							<div class="contact-info-wrapper">
 								<div class="contact-info text-center col-sm-12 fadeIn animated">
@@ -205,4 +213,8 @@
 <script src="js/parallax.js"></script>
 <!-- CUSTOM JS -->
 <script src="js/contact.js"></script>
-<script src="js/custom.js"></script></body></html>
+<script src="js/custom.js"></script>
+<script src="js/karusel.js"></script>
+</body>
+
+</html>
