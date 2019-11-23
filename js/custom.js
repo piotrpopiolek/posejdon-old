@@ -456,6 +456,11 @@ $('.about-section').ripples({
     dropRadius: 20,
     perturbance: 0.04
 });
+$('.model2-section').ripples({
+    resolution: 1024,
+    dropRadius: 20,
+    perturbance: 0.04
+});
 $('.contact-section').ripples({
     resolution: 1024,
     dropRadius: 20,
