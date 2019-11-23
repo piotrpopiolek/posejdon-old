@@ -91,7 +91,7 @@ Common
 }
 
 .bg_pattern {
-    background-image: url('../images/07.png');
+    background-image: url('../images/KONCERT2 GRAY VECTOR.jpg');
     position: absolute;
     left: 0px;
     top: 0px;
@@ -284,18 +284,6 @@ HOME
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
-/* ------------------------------------------------------------------------ 
-Third section
------------------------------------------------------------------------- */
-.temp-section{
-
-    background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
-    background-size: 100%;
-    
-}
-
-
  
 /* ------------------------------------------------------------------------ 
 Gallery 
@@ -692,111 +680,6 @@ ul#filterOptions li a {
 
 .contact-section.active .contact {
     opacity: 1;
-}
-
-/* ------------------------------------------------------------------------ 
-  404 Page
- ------------------------------------------------------------------------ */
-.ergo_slider-pic1.error-page{
-  background: url(../images/1.jpg) no-repeat center center;
-} 
-.ergo_slider-pic2.error-page{
-  background: url(../images/2.jpg) no-repeat center center;
-}
-.ergo_slider-pic3.error-page{
-  background: url(../images/3.jpg) no-repeat center center;
-}
- 
-.ergo_404_container{
-  position: absolute; 
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  text-align: center;
-}
-#ergo_svg_404_container {
-    width: 100%;
-    height: 100%;
-    margin: 0
-}
-.ergo_404-info {
-    position: absolute;
-    overflow: hidden;
-    text-transform: uppercase;
-    line-height: 2.2em;
-    text-align: right;
-    width: 100%;
-    font-size: 1.3em;
-    bottom: 0;
-    font-weight: 900;
-    top: 0px;
-}
-.ergo_404-info .home_title {
-    position: absolute;
-    right: 0;
-    left: 0;
-    width: 300px;
-    height: 100px;
-    border: 2px solid rgba(255, 255, 255, 0.45);
-    top: 38%;
-    margin: auto;
-}
-.ergo_404-info .home_title h1 {
-    font-size: 50px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.57);
-    ;
-    text-shadow: none;
-}
-.ergo_404_svg_text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    margin: auto;
-    left: 0;
-    right: 0;
-}
-.ergo_404-info svg#svg_404 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-.ergo_404-info svg text {
-    text-anchor: middle;
-}
-.ergo_404-info svg #alpha {
-    fill: #FFF;
-}
-.ergo_404-info svg #title_404 {
-    letter-spacing: 1px;
-    font-size: 23em;
-    font-weight: 600;
-}
-.ergo_404-info svg #subtitle_404 {
-    letter-spacing: 5px;
-    font-size: 1.5em;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-.ergo_404-info svg #desc_404,
-svg #desc2_404,
-svg #desc3_404 {
-    letter-spacing: 3px;
-    font-size: .6em;
-    font-weight: 500;
-    text-anchor: middle;
 }
  
 /* ------------------------------------------------------------------------ 
