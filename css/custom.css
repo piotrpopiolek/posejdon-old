@@ -24,11 +24,7 @@ body {
 .title{
     
 }
-.home-section,
-.home-section .container {
-    width: 100%;
-    text-align: center;
-}
+
 
 .home-section .container-fluid {
 	height:inherit;
@@ -92,7 +88,6 @@ body {
 }
 
 .home-section {
-	background-color: #bf1377;
     background: url(../images/POSEIDON_3.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,14 +167,44 @@ canvas{
 /* ------------------------------------------------------------------------ 
 Third section
 ------------------------------------------------------------------------ */
-.temp-section{
-
+.about-section{
     background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
-    /* background-size: 100%; */
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.model1-section{
+    background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .model2-section{
-
     background: url('../images/KONCERT2\ GRAY\ VECTOR.jpg') no-repeat center;
-    /* background-size: 100%; */
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    width: 101%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 100% !important;
 }
